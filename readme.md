@@ -1,9 +1,11 @@
 # Personal dotfiles
 
-## This is my personal dotfile repo for the Void Linux setup.
+## migrated this repo to [nixos-dotfile](https://github.com/Rustlog/nixos-dotfile)
+
+## This is my personal dotfile repo for the Linux setup.
 
 ## WM (Window manager - sway)
-![](share/images/void-linux.webp)
+![](dotfiles/assets/images/void-linux.webp)
 
 #### Core configuration (Main setup):
 - **Scripts:** [Handy scripts (MountSSH, Dotsync, JournalToday and more)](scripts/)
@@ -24,13 +26,7 @@
 - **Qutebrowser**: [~/.config/qutebrowser](qutebrowser/)
 - **Kitty**: [~/.config/kitty/kitty.conf](kitty/kitty.conf)
 
-### Dotfile manager
-**scripts/main/Dotsync**: is the main tool to sync system and user settings into dotfile repo, it can backup up config, clone, sync, and push push your dotfiles.
-
 ### Notes
 -  -> These dotfiles are for my own personal use, but feel free to borrow anything you like!
 -  -> The [other](#others-not-used-often) section contain files I occasionally use or rarely use them.
-
-### Install
-- *Turn any bare metal into a fully riced setup*: `Nothing here yet`
 
